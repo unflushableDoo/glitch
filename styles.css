@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  back
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+body{
+ font-family: 'Roboto', sans-serif; 
 }
