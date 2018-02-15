@@ -7,19 +7,21 @@
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: #92a7ae;
+  color: #378ea7;
   padding: 10px;
   text-align: center;
   font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px 8px 	#cecece;
 }
 
 body{
  font-family: 'Roboto', sans-serif; 
+ background-color: 
 }
 
 .mrman{
-  color: blue;
+  color:#23366b;
 }
 
 .container{
@@ -28,8 +30,15 @@ body{
 
 .sidebar{
   flex: 1;
-  background-color: blue;
+  background-color: #23366b;
   padding: 10px;
+}
+
+#sideheader{
+  text-align: center;
+  background-color: #cecece;
+  box-shadow: 4px 4px 8px;
+  border-radius: 10px;
 }
 
 .main{
