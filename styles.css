@@ -21,3 +21,19 @@ body{
 .mrman{
   color: blue;
 }
+
+.container{
+  display: flex;
+}
+
+.sidebar{
+  flex: 1;
+  background-color: blue;
+  padding: 10px;
+}
+
+.main{
+ flex: 4; 
+  background-color: red;
+  padding: 10px;
+}
