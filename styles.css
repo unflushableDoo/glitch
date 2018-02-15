@@ -78,3 +78,14 @@ th, td {
 .assign{
  font-size: 20px; 
 }
+
+.units{
+ height: 45px; 
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.units:hover{
+ height: 400px; 
+overflow: auto;
+}
