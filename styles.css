@@ -31,9 +31,6 @@ body{
 
 .sidebar{
   flex: 1;
-  display: flex;
-  flex-direction:column;
-  align-content: center;
   background-color: #23366b;
   padding: 10px;
   height: 300px;
@@ -47,7 +44,7 @@ body{
 }
 
 .sidebar>a{
-  align: center;
+  margin: 20px;
   font-size: 20px;
   color: #24d3e1;
 }
@@ -73,4 +70,8 @@ table, th, td {
 th, td {
     padding: 5px;
   text-align: center;
+}
+
+.assign{
+ font-size: 20px; 
 }
