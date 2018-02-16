@@ -26,6 +26,7 @@ body{
 .container{
   display: flex;
   flex-wrap: wrap;
+  padding: 0 100px;
 }
 
 .sidebar{
@@ -36,6 +37,9 @@ body{
   background-color: #23366b;
   padding: 10px;
   height: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px;
 }
 
 #sideheader{
@@ -60,10 +64,11 @@ body{
   font-family: 'Courgette', cursive;
   text-align: center;
   background-color: #23366b;
-  color: #378ea7;
+  color: #cecece;
   padding: 5px;
   border-radius: 10px;
   margin-bottom:10px;
+  box-shadow: 4px 4px 4px black;
 }
 
 table, th, td {
