@@ -13,6 +13,8 @@ header {
   text-align: center;
   font-family: 'Courgette', cursive;
   text-shadow: 2px 2px 8px 	#cecece;
+  margin-bottom: 5px;
+  box-shadow: 4px 4px 8px black;
 }
 
 body{
@@ -100,8 +102,8 @@ th, td {
 }
 
 
-@media only screen and (max-width: 600px){
-  .menu{margin: 0; border-radius: 0}
+@media only screen and (max-width: 800px){
+  .menu{margin: 0; border-radius: 0;}
   .main{margin: 0; width: 50px;}
   .mainheader{border-radius: 0;}
   header>h1{font-size: 20px;}
