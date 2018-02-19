@@ -78,16 +78,21 @@ th, td {
 }
 
 .units{
-  tr
+  transform:translateY(0px);
  height: 45px; 
   overflow: hidden;
   transition: all 1s;
 }
 
+.grow{height: 0px;}
+
 .units:hover{
  height: 600px; 
 overflow: auto;
 }
+
+.units:hover .grow{
+  height: 600px;}
 
 @media only screen and (max-width: 600px){
   .menu{margin: 0; border-radius: 0}
