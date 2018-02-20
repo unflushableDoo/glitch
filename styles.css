@@ -109,7 +109,7 @@ th, td {
 
 @media only screen and (max-width: 800px){
   .menu{margin: 0; border-radius: 0;}
-  .main{margin: 5px; width: 50px;}
+  .main{margin: 0; width: 50px;}
   .mainheader{border-radius: 0;}
   header>h1{font-size: 20px;}
 }
