@@ -21,6 +21,10 @@ body{
  font-family: 'Roboto', sans-serif; 
 }
 
+.welcome{
+  font-family: 'Courgette', cursive;
+}
+
 .mrman{
   color:#23366b;
 }
