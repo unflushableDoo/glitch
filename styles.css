@@ -97,12 +97,12 @@ th, td {
 }
 
 .grow:hover{
-  height: 600px;
+  height: 800px;
   overflow: auto;
 }
 
 .units:hover + .grow{
-  height: 600px;
+  height: 800px;
   overflow: auto;
 }
 
