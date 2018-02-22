@@ -13,8 +13,6 @@ header {
   text-align: center;
   font-family: 'Courgette', cursive;
   text-shadow: 2px 2px 8px 	#cecece;
-  margin-bottom: 5px;
-  box-shadow: 4px 4px 8px black;
 }
 
 body{
@@ -22,6 +20,7 @@ body{
 }
 
 .welcome{
+  margin-top: 10px;
   font-family: 'Courgette', cursive;
 }
 
@@ -29,21 +28,11 @@ body{
   color:#23366b;
 }
 
-
-.container{
- display: flex;
-}
-
 .menu{
   background-color: #23366b;
-  order: 2;
   padding: 10px;
-  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-right: 50px;
-  height: 300px;
+  flex-wrap: wrap;
   box-shadow: 4px 4px 4px black;
 }
 
@@ -89,8 +78,7 @@ th, td {
 
 
 @media only screen and (max-width: 800px){
-  .menu{margin: 0; border-radius: 0;}
-  .main{margin: 0; width: 50px;}
+  .main{margin: 0;}
   .mainheader{border-radius: 0;}
   header>h1{font-size: 20px;}
 }
