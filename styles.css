@@ -60,6 +60,10 @@ body{
   margin-right: 50px;
 }
 
+.main>p{
+ padding: 10px; 
+}
+
 .mainheader{
   font-family: 'Courgette', cursive;
   text-align: center;
