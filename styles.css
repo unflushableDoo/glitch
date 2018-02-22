@@ -43,9 +43,8 @@ body{
 }
 
 .main{
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 50px;
+  margin: 10px 100px;
+
 }
 
 p{
@@ -73,12 +72,20 @@ th, td {
 }
 
 
+.flexcontainer{
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
 .units{
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+  width: 150px;
+  height: 150px;
+  background-color: #92a7ae;
   text-align: center;
   padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
 }
 
 
