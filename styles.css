@@ -80,31 +80,8 @@ th, td {
   text-align: center;
 }
 
-.assign{
- font-size: 20px; 
-}
 
-.units{
- height: 45px; 
-  overflow: hidden;
-  transition: all 1s;
-}
 
-.grow{
-  overflow: hidden;
-  height: 0px;
-  transition: all 1s;
-}
-
-.grow:hover{
-  height: 800px;
-  overflow: auto;
-}
-
-.units:hover + .grow{
-  height: 800px;
-  overflow: auto;
-}
 
 
 @media only screen and (max-width: 800px){
