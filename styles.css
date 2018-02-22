@@ -43,7 +43,6 @@ body{
 }
 
 .main{
- flex: 5; 
   margin-top: 10px;
   margin-left: 100px;
   margin-right: 50px;
@@ -74,6 +73,13 @@ th, td {
 }
 
 
+.units{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
+}
 
 
 
