@@ -75,6 +75,10 @@ th, td {
   text-align: center;
 }
 
+#behave{
+ display: flex; 
+justify-content: center;
+}
 
 .flexcontainer{
  display: flex;
