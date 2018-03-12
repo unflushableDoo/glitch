@@ -104,7 +104,9 @@ justify-content: space-around;
 .period{
   font-family: 'Courgette', cursive; 
 }
-
+#table{
+  overflow: auto;
+}
 
 @media only screen and (max-width: 800px){
   .main{margin: 0;}
