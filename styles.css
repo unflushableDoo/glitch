@@ -80,6 +80,10 @@ th, td {
 justify-content: center;
 }
 
+#behave>h2{
+ margin-top: 50px; 
+}
+
 .flexcontainer{
  display: flex;
 flex-wrap: wrap;
