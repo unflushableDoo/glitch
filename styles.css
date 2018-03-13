@@ -76,8 +76,9 @@ th, td {
 }
 
 #bulletin{
-  background-color: "black";
-  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 10px;
   margin-bottom: 10px;
 }
