@@ -86,6 +86,9 @@ th, td {
 .studentwork{
  background-image: url("https://cdn.glitch.com/50b7053d-5876-4ee1-9070-c1b8c97e472c%2Fstudentwork.png?1520947793559");
   background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  padding: 40px 70px;
 }
 
 #behave{
