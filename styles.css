@@ -75,6 +75,11 @@ th, td {
   text-align: center;
 }
 
+#bulletin{
+  background-image: url("https://cdn.glitch.com/50b7053d-5876-4ee1-9070-c1b8c97e472c%2Fbulletin.jpg?1520944784481");
+  height 
+}
+
 #behave{
  display: flex; 
 justify-content: center;
