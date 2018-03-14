@@ -67,15 +67,8 @@ p{
   box-shadow: 4px 4px 4px black;
 }
 
-#news{
-  
-  animation: move 3s linear infinite;
-}
 
-@keyframes move{
-  from{background-col;}
-  to{flex: 1;}
-}
+
 table, th, td {
     margin-top: 10px;
 }
