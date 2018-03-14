@@ -55,6 +55,15 @@ p{
  padding: 5px 20px; 
 }
 
+#announcements{
+ position:absolute;
+}
+
+@keyframes #announcements{
+  from{left: -10}
+  
+}
+
 .mainheader{
   font-family: 'Courgette', cursive;
   text-align: center;
