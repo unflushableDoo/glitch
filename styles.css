@@ -57,11 +57,12 @@ p{
 
 #announcements{
  position:absolute;
+ animation: move, 3s, linear, infinite;
 }
 
-@keyframes #announcements{
-  from{left: -10}
-  
+@keyframes move{
+  from{left: -10vw}
+  to{right: 10vw;}
 }
 
 .mainheader{
