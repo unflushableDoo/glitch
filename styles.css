@@ -55,15 +55,6 @@ p{
  padding: 5px 20px; 
 }
 
-#announcements{
- position:absolute;
- animation: move, 3s, linear, infinite;
-}
-
-@keyframes move{
-  from{left: -10vw}
-  to{right: 10vw;}
-}
 
 .mainheader{
   font-family: 'Courgette', cursive;
